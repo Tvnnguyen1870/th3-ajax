@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e2053;
+    color: #fff;
+}
+
+#weather {
+    padding-left: 40px;
+}
+
+#weather .heading{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+#weather input {
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    height: 24px;
+    padding-left: 6px;
+}
+
+#weather #btn {
+    width: 56px;
+    height: 28px;
+    border-radius: 4px;
+}
+
+#weather #btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.content {
+    width: 250px;
+    height: 300px;
+    padding: 30px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 32px;
+    background-color: #9597db;
+}
+
+.temperature {
+    border: 1px solid #dcd1d1;
+    background-color: #ebe2e2;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.temperature .value{
+    padding-left: 16px;
+    color: #000;
+}
+
+.content .sky-status {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
